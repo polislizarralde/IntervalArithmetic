@@ -32,7 +32,7 @@ function createInterval(a, b)
     if left <= right
         return Interval(left,right)
     else
-        error("left > right this not define an interval")
+        error("left > right this not define an interval.")
     end
 end
 
